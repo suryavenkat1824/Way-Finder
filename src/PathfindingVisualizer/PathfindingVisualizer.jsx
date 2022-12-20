@@ -69,22 +69,23 @@ export default class PathfindingVisualizer extends Component {
   }
   render() {
     const { grid, mouseIsPressed } = this.state;
+    document.title=`WAY FINDER APP`;
     //console.log(nodes);
     return (
       <>
         <div class="navbar">
           <div class="header">
             <a href="#default" class="logo">
-              Path Finding Visualizer
+              WAY FINDER
             </a>
             <div class="header-right">
               <button onClick={() => this.visualizeDjikstra()} class="btn">
-                visualize Djikstra
+                Visualize Dijkstra
               </button>
               <a href="/">Home</a>
               <div class="dropdown">
                 <button class="dropbtn">
-                  All About Djikstra
+                  All About Dijkstra
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
@@ -92,7 +93,7 @@ export default class PathfindingVisualizer extends Component {
                     href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
                     target="_blank"
                   >
-                    Djikstra
+                    Dijkstra
                   </a>
                   <a
                     href="https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/"
@@ -108,7 +109,7 @@ export default class PathfindingVisualizer extends Component {
                   </a>
                 </div>
               </div>
-              <a href="#news">About</a>
+//               <a href="#news">About</a>
             </div>
           </div>
         </div>
