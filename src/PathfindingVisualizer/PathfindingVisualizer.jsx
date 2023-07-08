@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Node from "./Node/Node";
 import { djikstra, getNodesInShortestPathOrder } from "../algorithms/djiskstra";
 import "./PathfindingVisualizer.css";
-
+import  "../Navigation/Nav.css";
 const START_NODE_ROW = 10;
 const START_NODE_COL = 15;
 const FINISH_NODE_ROW = 10;
