@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
 import Node from "./Node/Node";
 import { djikstra, getNodesInShortestPathOrder } from "../algorithms/djiskstra";
 import "./PathfindingVisualizer.css";
-import Navbar from "../Navigation/Nav.css";
-//import "bootstrap/dist/css/bootstrap.min.css";
 
 const START_NODE_ROW = 10;
 const START_NODE_COL = 15;
@@ -92,18 +89,21 @@ export default class PathfindingVisualizer extends Component {
                   <a
                     href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
                     target="_blank"
+                       rel="noreferrer"
                   >
                     Dijkstra
                   </a>
                   <a
                     href="https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/"
                     target="_blank"
+                       rel="noreferrer"
                   >
                     Theory
                   </a>
                   <a
                     href="https://www.youtube.com/watch?v=SnZ2SQARTVI&ab_channel=ApnaCollege"
                     target="_blank"
+                       rel="noreferrer"
                   >
                     Explanation
                   </a>
